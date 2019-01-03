@@ -1,0 +1,38 @@
+header,
+footer,
+.summary,
+.education,
+.projects,
+.links,
+.work {
+    margin-left: 210px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+body {
+    padding: 16px;
+    width: 95%;
+    background-color: whitesmoke;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    box-shadow: 5px 5px 5px gray;
+}
+
+header>div>img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+li {
+    list-style-type: square;
+}
+
+header.w3-container::before {
+    content: none;
+}
